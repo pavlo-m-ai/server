@@ -21,7 +21,7 @@ const server = createServer((req, res) => {
     }
     
     case '/favicon.ico': {
-        readFile("C:\\Users\\Fedor\\.vscode\\cli\\favicon.ico", (err, data) => {
+        readFile("C:\\Users\\zzxrr02\\.vscode\\cli\\favicon.ico", (err, data) => {
             if (err) {
                 res.writeHead(500, { 'Content-Type': 'text/plain' });
                 res.end('Error loading favicon.ico\n');
